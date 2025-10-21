@@ -94,12 +94,14 @@ h1 {
   margin-bottom: 0.7em;
 }
 
-#underline {
+#baffo {
   position: relative;
+  white-space: nowrap;
 }
 
-#underline img {
+#baffo img {
   position: absolute;
+  right: 0;
   bottom: -14px;
   opacity: 0.6;
   width: 340px;
@@ -345,9 +347,7 @@ footer a {
   main {
     padding: 2em;
   }
-
-  #underline img {
-    bottom: -18px;
+  #baffo img {
     width: 450px;
   }
 
@@ -400,14 +400,7 @@ footer a {
   }
 
   h1 {
-    font-size: 4rem;
     line-height: 55px;
-  }
-
-  #underline img {
-    right: 0;
-    width: 380px;
-    bottom: -10px;
   }
 
   header div {
@@ -524,12 +517,6 @@ footer a {
 
   h1 {
     font-size: 5rem;
-  }
-
-  #underline img {
-    right: 190px;
-    width: 450px;
-    bottom: -18px;
   }
 
   #badge {
